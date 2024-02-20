@@ -1,1 +1,25 @@
+#BOT BATTLR WEB APP
+Welcome to Bot Battlr, the ultimate destination for assembling your very own Bot Army! This React application allows you to browse through a list of available robots, view their details, and enlist them into your army.
 
+#OVERVIEW
+Bot Battlr is a React-based web application developed to showcase proficiency in implementing components, props, state management, event handling, and data fetching. The project aims to provide users with a seamless experience in managing their Bot Army, from browsing available bots to enlisting them for battle.
+
+#FEATURES
+1. Bot Collection: View profiles of all available bots rendered in the BotCollection component.
+2. Enlistment: Add an individual bot to your army by clicking on it. The selected bot will be displayed 
+in the YourBotArmy component. Each bot can be enlisted only once.
+3. Release: Remove a bot from your army by clicking on it. The bot will disappear from the YourBotArmy component.
+4. Discharge: Permanently remove a bot from service by clicking the red button marked "x". 
+This action deletes the bot from both the backend and frontend.
+
+#TECHNOLOGIES USED
+1. React Frontend library for building user interfaces.
+2. JSON Server: Lightweight mock REST API server for simulating backend functionality.
+3. JavaScript 
+
+#INSTALLATION
+Clone the repository: git clone <repository-url>
+Navigate to the project directory: cd <project-folder>
+Install dependencies: npm install
+Start the JSON Server: json-server --watch db.json
+Start the React development server: npm start
